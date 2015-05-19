@@ -1,0 +1,45 @@
+body{
+  background-color: #22353c;
+  font-family:"Ubuntu";
+  font-size: 20px;
+  height: 100%;
+
+}
+
+header{
+  background-color: #05080d;
+  font-size: 3em;
+  color: white;
+}
+
+img{
+  border-radius: 40px;
+  box-shadow: 10px 10px 5px #3d272a;
+
+}
+
+main {
+  background-color: #dea26c;
+  font-size: 1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: "Ubuntu";
+  color: #ffffff;
+  font-size: 20px;
+  background: #3d272a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6f4837;
+  text-decoration: none;
+}

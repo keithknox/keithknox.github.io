@@ -1,6 +1,6 @@
 body{
   background-color: #22353c;
-  font-family:"Ubuntu", "Droid Sans", Helvetica, Arial;
+  font-family:"Ubuntu", "Droid Sans", "Helvetica", Arial, sans-serif;
   font-size: 20px;
   height: 100%;
 
@@ -35,7 +35,6 @@ footer{
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
   border-radius: 0.45em;
-  font-family: "Ubuntu";
   color: #ffffff;
   font-size: 1em;
   background: #3d272a;

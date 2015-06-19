@@ -47,14 +47,14 @@ footer{
   text-decoration: none;
 }
 
-.invisibleillness p{
+.project_description p{
   width: 50%;
   font-size: .80em;
   margin: 2%;
   padding: 2%;
   float: right;
 }
-.invisibleillness h1{
+.project_description h1{
   float: right;
   width: 50%;
   margin: 1%;
@@ -62,12 +62,12 @@ footer{
   font-size: 1.5em;
 }
 
-.invisibleillness h3{
+.project_description h3{
   float: right;
   width: 50%;
   }
 
-  .invisibleillness img{
+  .project_description img{
     float: left;
     width: 40%;
     border-radius: 0;

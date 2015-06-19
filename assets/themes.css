@@ -46,3 +46,31 @@ footer{
   background: #6f4837;
   text-decoration: none;
 }
+
+.invisibleillness p{
+  width: 50%;
+  font-size: .80em;
+  margin: 2%;
+  padding: 2%;
+  float: right;
+}
+.invisibleillness h1{
+  float: right;
+  width: 50%;
+  margin: 1%;
+  padding: 2%;
+  font-size: 1.5em;
+}
+
+.invisibleillness h3{
+  float: right;
+  width: 50%;
+  }
+
+  .invisibleillness img{
+    float: left;
+    width: 40%;
+    border-radius: 0;
+    padding-left: 1%;
+    margin: 0;
+  }

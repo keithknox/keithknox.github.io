@@ -1,0 +1,186 @@
+/*main*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 90%;
+  height: 100%;
+  background: black;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  width: 70%;
+  height: 25%;
+  margin: 10% auto 0;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2em;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  font-size: .5em;
+  padding: 1%;
+  border-right: 1px solid;
+  cursor: pointer;
+
+}
+
+.aboutLink {
+  border-left: 1px solid;
+}
+
+.projectLink {
+  border: 0 1px solid;
+}
+
+.contactLink {
+  border-right: 1px solid;
+}
+
+/*about*/
+
+#about{
+  width: 60%;
+  height: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6%;
+  font-size: 1.25em;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  padding: 4%;
+  }
+
+#about img{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-radius: 40px;
+  margin-right: 5%;
+}
+
+#about p{
+  padding: 5%;
+  margin-left: 5%;
+}
+
+/*projects*/
+
+#projects{
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 1.25em;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  padding: 7%;
+  overflow: hidden;
+  }
+
+  #slider{
+  width: 95%;
+  height: 350px;
+  position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+	border: white solid 2px;
+	border-radius: 5px;
+  margin-top: 25px;
+}
+
+#slider img {
+	width: 100%;
+	height: 100%;
+
+}
+.slide{
+	postion: absolute;
+}
+
+.slide-copy{
+  font-size: .70em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	background: black;
+	background: rgba(0,0,0,0.75);
+}
+
+#prev, #next{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+	position: relative;
+	z-index: 100;
+}
+
+#prev {
+	margin-right: -45px;
+}
+
+#next{
+	margin-left: -45px;
+}
+
+/*contacts*/
+
+#contacts{
+  width: 60%;
+  height: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+  font-size: .80em;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  padding: 5%;
+  }
+
+#contacts li{
+    display: inline;
+    text-decoration: none;
+}
+
+ .btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 0.45em;
+  color: #000;
+  font-size: 1.25em;
+  background: #fff;
+  padding: .5em 1em .5em 1em;
+  text-decoration: none;
+  }
+
+ .btn:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}

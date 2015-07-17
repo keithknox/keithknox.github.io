@@ -1,41 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-      <title>Keith Knox Portfolio</title>
-      <style>
-      *
-        {
-        margin:0;
-        border:0;
-        padding:0;
-        border-collapse:collapse;
-        border-spacing:0;
-        font-weight:inherit;
-        font-size:inherit;
-        font-style:inherit;
-        color:inherit;
-        background-color:transparent;
-        box-sizing:border-box;
-        font-family:inherit;
-        a:inherit;
-        }
-      </style>
-      <link rel="stylesheet" type="text/css" href="assets/themes.css">
-      <link rel="stylesheet" type="text/css" href="assets/large.css">
-  </head>
-  <body>
-      <header>Keith Knox</header>
-      <main>
-        <img src = "assets/headshot1.jpg" alt="bw photo">
-        <p>I am a former payroll accountant looking to make the leap into full stack web development. I graduated General Assembly's Web Development Immersive in June 2015. Please follow my links below for more info.</p>
-      </main>
-      <footer>
-        <a href = "projects.html" class = "btn">Projects</a>
-        <a href = "https://github.com/keithknox" class = "btn" target="github">My Github Account</a>
-        <a href = "https://www.linkedin.com/in/keithwknox" class="btn" target = "linkedin">My Linkedin Profile</a>
-        <a href = "https://twitter.com/KeithKnoxKnox" class="btn" target="twitter">My Twitter Profile</a>
-        <a href="mailto:keithwknox@gmail.com?Subject=Hello" class="btn" >Send me an email</a>
-      </footer>
-  </body>
-</html>
+  <html>
+    <head>
+      <title>The Portfolio of Keith Knox</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class= "main">
+            <h1>Keith Knox</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li class = "aboutLink">About Me</li>
+                    <li class = "projectLink">Projects</li>
+                    <li class = "contactLink">Contact</li>
+                </ul>
+            </nav>
+          </div>
+
+        <div id= "about">
+          <h1>About Me</h1>
+          <img src = "img/headshot1.jpg" alt="bw photo">
+            <div class="text">
+              <p>I am a former payroll accountant looking to make the leap into full stack web development. I graduated General Assembly's Web Development Immersive in June 2015. </p>
+          </div>
+        </div>
+
+        <div id="projects">
+          <h1>Projects</h1>
+          <img src = "img/arrow-left.png" alt = "prev" id = "prev">
+          <div id = "slider">
+              <div class = "slide">
+                  <div class = "slide-copy">
+                      <h2>Invisible Illness</h2>
+                      <p>This project was a group effort in my General Assembly class that combined 3 developers and one designer from the User Experience class.  The focus of the project was to tell a story and our designer proposed the idea of creating a forum for people with invisible illnesses.  Users could personal stories, find links for more information and even contrbute to a charity if they wished to do so.  My role was taking the designers proofs and creating the front-end style for the page, which was tricky because we hadn't learned any Javascript yet.  All the animations and layout were done in CSS over the course of two days.  I am pretty proud of this project because we worked well as a team and met the "client's" expectations with what little front-end skill we had at that time.</p>
+                  </div>
+                  <a href = "https://salty-journey-2304.herokuapp.com/" target="_blank"><img src = "img/invisibleillness.png" alt = "Prev"></a>
+              </div>
+
+              <div class = "slide">
+                  <div class = "slide-copy">
+                      <h2>Vineyard Itinerary</h2>
+                      <p>This was my third project for General Assembly and the idea was to create a map of vineyards in the Shenandoah Valley and choose to add them to an itinerary so that they could create their own wine tour.  It was to incorporate the Google Maps API and the vineyards would come from the Yelp API.  I got the Yelp API working, but didn't have much luck plotting the points on Google Maps.  The one thing I was proud of was being able to seed my database with the Yelp data by using a "bounding box" function.  Since the Shenandoah Valley is not a metropolitan area, I had to define where to look for these vineyards and I'm proud of the results.</p>
+                  </div>
+                  <a href = "https://pacific-plains-7067.herokuapp.com/" target="_blank"><img src = "img/vineyard.png" alt = "Prev"></a>
+              </div>
+
+              <div class = "slide">
+                  <div class = "slide-copy">
+                      <h2>Keith's Cookbook</h2>
+                      <p>This was my final project for General Assembly.  It is a Ruby on Rails app that allows users to upload recipes and comment on them.  This was the first time I was implementing AJAX and jQuery on a project as well as trying out the Materialize CSS framework.  The AJAX calls can be seen when you add comments to the recipes without a page reload.  It may be simple, but I'm still very proud of this app since it has shown how far I have come since starting General Assembly in March.</p>
+                  </div>
+                  <a href = "https://lit-bayou-1476.herokuapp.com/" target="_blank"><img src = "img/cookbook.png" alt = "Prev"></a>
+              </div>
+        </div>
+          <img src = "img/arrow-right.png" alt = "next" id = "next">
+      </div>
+
+        <div id="contacts">
+          <h1>Contact</h1>
+          <br>
+          <ul>
+            <li><a href = "https://github.com/keithknox" class = "btn" target="github">My Github Account</a></li>
+            <li><a href = "https://www.linkedin.com/in/keithwknox" class="btn" target = "linkedin">My Linkedin Profile</a></li>
+            <li><a href = "https://twitter.com/KeithKnoxKnox" class="btn" target="twitter">My Twitter Profile</a></li>
+            <li><a href="mailto:keithwknox@gmail.com?Subject=Hello" class="btn" >Send me an email</a></li>
+          </ul>
+        </div>
+    </body>
+  </html>

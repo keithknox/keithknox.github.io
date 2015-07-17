@@ -24,6 +24,8 @@ $(document).ready(function(){
           $('#contacts').fadeIn(1000);
       })
 
+      
+
       // Project slider
       var speed = 500;  //fade speed
     var autoswitch = true;  //auto slider options

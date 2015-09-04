@@ -252,3 +252,43 @@ nav li{
  }
 
 }
+
+@media screen and (max-device-width: 400px){
+
+  .main {
+    width: 60%;
+    font-size: 1.25em;
+  }
+
+  #prev, #next{
+  	float: left;
+  	margin-top: 200px;
+  	cursor: pointer;
+  	position: relative;
+  	z-index: 100;
+    width: 15%;
+    height: 15%;
+  }
+
+  #prev {
+  	margin-right: -25px;
+  }
+
+  #next{
+  	margin-left: -25px;
+  }
+
+
+  #contacts{
+    width: 75%;
+  }
+
+  #contacts li{
+    display:block;
+    margin-bottom: 10px;
+  }
+  .btn {
+   font-size: .8em;
+
+   }
+}

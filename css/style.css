@@ -1,1 +1,31 @@
+/* Body */
+body {
+    font-family: 'Poppins';
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+    grid-template-rows: 1fr 4fr 1fr;
+    font-size: 16px;
+}
+
+main {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+
+h1 { 
+    font-size: 300%;
+}
+
+/* Navbar */
+nav {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
 
